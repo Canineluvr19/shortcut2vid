@@ -6,6 +6,7 @@ Automatically sorts the images by the LastWriteTime
 - Create a folder, name it something memorable (project/character/whatever)
 - Select all the images (from img2img or from anywhere really) that are going to be a part of this video.
 - Right click + drag into the newly created empty folder. A context menu will pop up; select "Create Shortcuts Here" option.
+- Run the shortcut2vid.ps1 script, using the -path parameter pointing to the folder with the image shortcuts in it. 
 
 # Parameters
 - -path
