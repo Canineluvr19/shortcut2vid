@@ -5,14 +5,11 @@
 
 .DESCRIPTION
 Creates a slideshow using ffmpeg. Expects a folder of shortcuts to images.
-Will copy all images into a .\temp_src\ path, renamed to 0000#.png, by the file's last written date, 
-runs the ffmpeg creation of the .mp4, then deletes the .\temp_src\ directory
-
-.PARAMETER path
-Parameter description
+Will copy all images into a .\ffmpeg_temp_src\ path, renamed to 0000#.png, by the file's last written date, 
+runs the ffmpeg creation of the .mp4, then deletes the .\ffmpeg_temp_src\ directory
 
 .EXAMPLE
-An example
+shortcut2vid.ps1 -path egypt -output egypt -framerate 10 
 
 .NOTES
 Requires ffmpeg.exe in the path. 
